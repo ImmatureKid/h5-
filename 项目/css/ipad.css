@@ -1,0 +1,142 @@
+.top{
+    position: relative;
+    height:90px;
+    /* overflow: auto; */
+}
+
+.top .nav{
+    position: absolute;
+    top:90px;
+    left:0px;
+    width:100%;
+    z-index:999;
+    display: none;
+}
+.top .nav ul.clearfix li {
+    float:none;
+    width:100%;
+    background: white;
+    margin:0px;
+    height:auto;
+    line-height: 40px;
+}
+.top .nav ul.clearfix li a{
+    color:black;
+}
+.top .btn{
+    display:block;
+}
+.top .nav ul.clearfix li ul{
+    position: relative;
+    z-index: 999;
+    width: 100%;
+    left: 0;
+    top:0;
+    background: #774a4a;
+    box-shadow: 1px 3px 3px #000;
+    display: none;
+    padding: 20px 0;
+    background: white;
+    height:auto;
+}
+.top .nav ul.clearfix li ul li{
+    float:none;
+    width:100%;
+    background: white;
+    margin:0px;
+    height:40px;
+    line-height: 40px;
+}
+.top .btn{
+    position: absolute;
+    width:50px;
+    height:90px;
+    top:45px;
+    right:10px;
+    font-size:20px;
+    color:white;
+}
+.banner{
+    width:100%;
+}
+.banner .imgList{
+    width:400%;
+}
+.banner .imgList li{
+    width:25%;
+}
+.banner ul li img{
+    width:100%;
+}
+.page1{
+    width:100%;
+}
+.page1 .page1-wapper{
+    width:85%;
+}
+.page2{
+    height:auto;
+    background: url(../images/sybg3.jpg) repeat center;
+    margin:0 auto;
+}
+.page2 .container{
+    width:80%;
+}
+.page2 .container .page2-wapper{
+    width:85%;
+    height:auto;
+}
+.page2 .container .page2-wapper ul li {
+    width:100%;
+    margin-top: 10px;
+}
+.page2 .container .page2-wapper ul li .wenzi{
+    width: 60%;
+}
+.page2 .container .page2-wapper ul li .pic{
+    width: 40%;
+}
+.page3 .container{
+    width:80%;
+}
+.page3 .container ul li:nth-child(1){
+    float:left;
+}
+.page3 .container ul li:nth-child(2){
+    float:right;
+    margin-right:0px;
+}
+.page3 .container ul li:nth-child(3){
+    float:left;
+    margin-top: 20px;
+}
+.page3 .container ul li:nth-child(4){
+    float:right;
+    margin-top:20px
+}
+.page3 .container h2{
+    font-size: 30px;
+}
+.page4 .container{
+    width:85%;
+}
+.page4 .container h2{
+    font-size:30px;
+}
+.page4 ul li {
+   display: inline-block;
+    width: 27%;
+    float:none;
+}
+.page4 ul li img{
+    width:100%;
+}
+.footer{
+    background: url(../images/footer-bg.jpg) repeat center;
+}
+.footer .container{
+    width:80%;
+}
+.footer .container .footer-left{
+    padding-left: 0;
+}
